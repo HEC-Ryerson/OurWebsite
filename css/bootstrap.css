@@ -1936,6 +1936,16 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/* Container for About Us Text -K */
+
+.container1 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
 .container:before, .container:after {
   content: " ";
   display: table;

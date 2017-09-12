@@ -75,12 +75,82 @@ p {
   font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #333;
+/* h1 to h14 are used */ 
+
+h1, h2, h3, h4, h5 {
+  color: grey;
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
 }
+
+
+
+h6 {
+  color: rgb(110, 110, 110);
+  font-family: "PT Sans", Arial, serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  font-size: 25px;
+}
+
+h7 {
+  color: red;
+  font-family: "PT Sans", Arial, serif;
+  /*font-weight: 600; */
+  margin: 0 0 30px 0;
+  font-size: 32px;
+}
+
+h8 {
+  color: #c61931;
+  font-family: "PT Sans", Arial, serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  font-size: 28px;
+}
+
+h9 {
+  color: rgb(55, 144, 255);
+  font-family: "PT Sans", Arial, serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  font-size: 28px;
+}
+
+h10 {
+  color: rgb(0, 0, 0);
+  font-family: "PT Sans", Arial, serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  font-size: 28px;
+}
+
+h11 {
+  color: #4CAF50;
+  font-family: "PT Sans", Arial, serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  font-size: 28px;
+}
+
+h12 {
+  color: #FBBC05;
+  font-family: "PT Sans", Arial, serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  font-size: 28px;
+}
+
+h13 {
+  color: #6460AA;
+  font-family: "PT Sans", Arial, serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  font-size: 28px;
+}
+
+
 
 ::-webkit-selection {
   color: #fff;
