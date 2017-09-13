@@ -1931,6 +1931,7 @@ pre code {
 }
 
 .container {
+
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
@@ -1940,6 +1941,8 @@ pre code {
 /* Container for About Us Text -K */
 
 .container1 {
+  padding-top: 100px;
+  background-color: #ffffcc;
   margin-right: auto;
   margin-left: auto;
   padding-left: 200px;

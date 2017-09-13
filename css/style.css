@@ -91,7 +91,7 @@ h6 {
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 h7 {
@@ -99,15 +99,15 @@ h7 {
   font-family: "PT Sans", Arial, serif;
   /*font-weight: 600; */
   margin: 0 0 30px 0;
-  font-size: 32px;
+  font-size: 25px;
 }
 
 h8 {
-  color: #c61931;
+  color:  #8000ff;
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 h9 {
@@ -115,7 +115,7 @@ h9 {
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 h10 {
@@ -123,7 +123,7 @@ h10 {
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 h11 {
@@ -131,7 +131,7 @@ h11 {
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 h12 {
@@ -139,7 +139,7 @@ h12 {
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 h13 {
@@ -147,7 +147,7 @@ h13 {
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 
@@ -496,7 +496,7 @@ h13 {
 }
 
 .fh5co-explore {
-  padding-bottom: 40px;
+  padding-bottom: 40px; 
 }
 
 .fh5co-explore-bg-color {
