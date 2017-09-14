@@ -77,11 +77,27 @@ p {
 
 /* h1 to h14 are used */ 
 
-h1, h2, h3, h4, h5 {
+h1, h4, h5 {
   color: grey;
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
+}
+
+h4 {
+  color: white;
+  font-family: "PT Sans", Arial, serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  font-size: 25px
+}
+
+h3 {
+  color: grey;
+  font-family: "PT Sans", Arial, serif;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  font-size: 30px
 }
 
 
@@ -91,15 +107,15 @@ h6 {
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 h7 {
-  color: red;
+  color: #8000ff;
   font-family: "PT Sans", Arial, serif;
   /*font-weight: 600; */
   margin: 0 0 30px 0;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 h8 {
@@ -107,7 +123,7 @@ h8 {
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 h9 {

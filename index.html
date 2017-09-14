@@ -5,6 +5,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
+
 	<meta name =" viewport" content = "width-device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -70,6 +71,39 @@
     margin: 0px; 
     float: right;
 	}
+
+	/* --------------------- Calendar Sizing --------------------*/
+
+	 @media (max-width: 550px) {
+     .big-container {
+         display: none;
+     }
+	 }
+	 @media (min-width: 550px) {
+     .small-container {
+         display: none;
+     }
+	 }
+ 	/* Responsive iFrame */
+	 .responsive-iframe-container {
+     position: relative;
+     padding-bottom: 56.25%;
+     padding-top: 30px;
+     height: 0;
+     overflow: hidden;
+ 	}
+ 	.responsive-iframe-container iframe,   
+ 	.vresponsive-iframe-container object,  
+ 	.vresponsive-iframe-container embed {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+ 	}
+
+ 	/* ---------------------------------------------------------&/
+
 	</style> 
 
 	</head>
@@ -106,7 +140,7 @@
 						<div class="col-md-8 col-md-offset-2">
 						<br>
 						<h1 class="to-animate">IEEE Ryerson Electronics Chapter</h1>
-							<h2 class="to-animate">Welcome to Ryerson's Electronics Chapter! Discover a community that is <b>creating, developing, integrating, sharing, and applying knowledge </b> about electrical and information technologies and sciences.</h2>						
+							<h4 class="to-animate"> Welcome to Ryerson's Electronics Chapter! Discover a community that is <b>creating, developing, integrating, sharing, and applying knowledge </b> about electrical and computer technologies and sciences.</h4>						
 
 						<!-- SLIDER
 						<div id="slideshow">
@@ -132,21 +166,28 @@
 
 	<!--[ ABOUT US SECTION ]-->
 
-	<section id="fh5co-explore" data-section="About Us">
+	<section id="fh5co-explore" data-section="About Us" style="background-color: rgb(213, 216, 239);">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
 					<h2 class="to-animate">About Us</h2>
+					
 					<br>
 					<h6> Engineering encompasses a <b> passion </b> to <b> create </b> the wealth in our society that connects us. The childish curiosity <b> to push past our limits </b> of knowledge challenges us. Ryerson Electronics Chapter creates a community inspiring us to have fun leveraging the theory from the lecture hall into <b> DIY electronics projects</b>.
 					<br>
+					
 					<br>
 					REC is dedicated to promoting the engineering process of <b> creating, developing, integrating, sharing, and applying knowledge </b> about electrical and computer applications.
 					<br>
 					<br>
+					
 					Weekly Drop-In workshops are designed to <b> challenge </b> participants of all skill levels, utilizing <h8> Raspberry Pi, Arduino, Github, Electronics, Signals, Embedded Programming</h8>, design and much more! As an attendee, you can expect to leave each workshop with a new and improved skill set.
 					</h6>
-					<h7> Let’s reignite the spark in learning! </h7>
+					<br>
+					<br>
+					<h7> "Let’s reignite the spark in learning!" </h7>
+					<br>
+					
 					<br>
 					<br>
 					<br>
@@ -171,41 +212,45 @@
 
 	<!--[ WORKSHOP SECTION ]-->
 	
-	<section id="fh5co-pricing" data-section="Workshops">
+	<section id="fh5co-pricing" data-section="Workshops" style="background-color:powderblue;">
 		<div class="container">
 				<div class="row">
 					<div class="col-md-12 section-heading text-center">
-					
 					<br>
-						<h2 class="to-animate">Workshops</h2>
+					<br>
+					<h2 class="to-animate">Workshops</h2>
 					</div>
-	<!--
-					<div class="col-md-4 to-animate-3">
-						<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fry.electronics%2Fvideos%2F280658322383349%2F&width=400&show_text=false&height=222&appId" width="400" height="222" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe><br>
-	-->				
-	     			<h3> Workshop Schedule </h3>
-					<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ryerson.ca_3tnjkrbldv796l8eimfd6fq6pg%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FToronto" style="border-width:0" width="1170" height="600" frameborder="0" scrolling="no"></iframe>
+					<h3> Workshop Schedule </h3>
+				
+	<!-- -->
+					<div class="responsive-iframe-container big-container">
+					<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ryerson.ca_3tnjkrbldv796l8eimfd6fq6pg%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FToronto" style="border-width:0" width="1150" height="600" frameborder="0" scrolling="no"></iframe>
+					</div>
+
+					<div class="responsive-iframe-container small-container">
+					<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=800&amp;wkst=1&amp;bgcolor=%23db694f&amp;src=8m2gergpnwapfiht0384htn554%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+					</div>
 
 					<br>
 					<br>
 					<br>
 
-					<h3> Workshop Material </h3>
+					<h3> Workshop Description </h3>
 					
 					<div class="box1"> 
 					<h14> Workshop 1: Intro to Python, API and Github! </h14>
-					<p> Material: </p>
+					<p> Description: </p>
 					<p> Github Link: </p>
 					<p> Software Link: </p>
 					</div>
-
+	<!--				
 					<div class="box2"> 
 					<h14> Workshop 2: Coming Soon! </h14>
 					<p> Material </p>
 					<p> Github Link: </p>
 					<p> Software Link: </p>
 					</div>
-
+	-->
 					<br>
 					<br>
 					<br>
@@ -227,7 +272,7 @@
 
 	<!--[ TEAM SECTION ]-->
 
-	<section id="fh5co-team" data-section="team">
+	<section id="fh5co-team" data-section="team" style="background-color: rgb(178, 151, 193);">
 		<div class="fh5co-team">
 			<div class="container">
 				<div class="row">
@@ -322,7 +367,7 @@
 
 		<!--[ GALLERY SECTION]-->
 
-		<section class="fh5co-explore fh5co-explore-bg-color" data-section="Gallery">
+		<section class="fh5co-explore fh5co-explore-bg-color" data-section="Gallery" style="background-color: rgb(189, 188, 189);">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 section-heading text-center">
