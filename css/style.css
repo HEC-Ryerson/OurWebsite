@@ -75,7 +75,7 @@ p {
   font-size: 16px;
 }
 
-/* h1 to h14 are used */ 
+/* h1 to h15 are used */ 
 
 h1, , h5 {
   color: grey;
@@ -103,7 +103,7 @@ h3 {
 
 
 h6 {
-  color: rgb(110, 110, 110);
+  color: #C4C6CA; /* rgb(110, 110, 110);*/ 
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
   margin: 0 0 30px 0;
@@ -111,26 +111,26 @@ h6 {
 }
 
 h7 {
-  color: #8000ff;
+  color: white; /* #8000ff; */
   font-family: "PT Sans", Arial, serif;
   /*font-weight: 600; */
   margin: 0 0 30px 0;
-  font-size: 28px;
+  font-size: 30px;
 }
 
 h8 {
-  color:  #8000ff;
+  color: white; /* #8000ff; */
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
-  margin: 0 0 30px 0;
-  font-size: 25px;
+  margin: 0 0 40px 0;
+  font-size: 26px;
 }
 
 h9 {
   color: rgb(55, 144, 255);
   font-family: "PT Sans", Arial, serif;
   font-weight: 400;
-  margin: 0 0 30px 0;
+  margin: 0 0 40px 0;
   font-size: 22px;
 }
 
@@ -166,6 +166,16 @@ h13 {
   font-size: 22px;
 }
 
+h2 {
+    margin: 0 0 0 0;
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
 
 
 ::-webkit-selection {
@@ -896,11 +906,31 @@ h13 {
   padding-bottom: 10px;
   line-height: 1.5;
 }
+
 @media screen and (max-width: 768px) {
   .section-heading h2 {
     font-size: 28px;
   }
 }
+
+/* MADE FOR ABOUT US ONLY -K */ 
+.section-heading h15 {
+  margin: 0 0 0 0;
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  position: relative;
+  display: block;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .section-heading h15 {
+    font-size: 28px;
+  }
+}
+
 .section-heading h3 {
   font-size: 18px;
   font-weight: 400;
